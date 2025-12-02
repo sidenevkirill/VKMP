@@ -1,0 +1,229 @@
+/* Стили для секции платформ */
+.platforms-intro {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.platforms-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.platforms-description {
+    font-size: 1.1rem;
+    color: #ccc;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.platforms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.platform-card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    padding: 30px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.platform-card.windows {
+    border-color: var(--windows-blue);
+}
+
+.platform-card.linux {
+    border-color: var(--linux-green);
+}
+
+.platform-card.android {
+    border-color: var(--android-green);
+}
+
+.platform-card.console {
+    border-color: var(--terminal-purple);
+}
+
+.platform-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.platform-icon {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.windows .platform-icon { color: var(--windows-blue); }
+.linux .platform-icon { color: var(--linux-green); }
+.android .platform-icon { color: var(--android-green); }
+.console .platform-icon { color: var(--terminal-purple); }
+
+.platform-name {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.platform-badge {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.windows .platform-badge { background: var(--windows-blue); }
+.linux .platform-badge { background: var(--linux-green); }
+.android .platform-badge { background: var(--android-green); }
+.console .platform-badge { background: var(--terminal-purple); }
+
+.platform-description {
+    color: #bbb;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+.platform-features {
+    text-align: left;
+    margin-bottom: 25px;
+    color: #ccc;
+}
+
+.platform-features ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.platform-features li {
+    margin-bottom: 8px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.platform-features li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: inherit;
+}
+
+.windows .platform-features li:before { color: var(--windows-blue); }
+.linux .platform-features li:before { color: var(--linux-green); }
+.android .platform-features li:before { color: var(--android-green); }
+.console .platform-features li:before { color: var(--terminal-purple); }
+
+.platform-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Стили для таблицы сравнения */
+.comparison {
+    margin-bottom: 60px;
+}
+
+.comparison-table {
+    overflow-x: auto;
+    background: var(--card-bg);
+    border-radius: 10px;
+    border: 1px solid var(--card-border);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+}
+
+th {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 2px solid #333;
+}
+
+td {
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    color: #ccc;
+}
+
+.platform-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.windows-header { color: var(--windows-blue); }
+.linux-header { color: var(--linux-green); }
+.android-header { color: var(--android-green); }
+.console-header { color: var(--terminal-purple); }
+
+.feature-check {
+    color: #3ddc84;
+    font-size: 1.2rem;
+}
+
+.feature-missing {
+    color: #ff5555;
+    font-size: 1.2rem;
+}
+
+/* Стили для карточек возможностей */
+.features {
+    margin-bottom: 60px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.feature-card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 25px;
+    border: 1px solid var(--card-border);
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, var(--windows-blue), var(--terminal-purple));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.feature-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.feature-description {
+    color: #bbb;
+    font-size: 0.95rem;
+}
