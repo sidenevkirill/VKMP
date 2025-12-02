@@ -1,5 +1,7 @@
 # VKMP - VK Moosic Player
 
+<img src="https://github.com/sidenevkirill/Sidenevkirill.github.io/blob/master/img/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202025-12-02%2009-14-25.png?raw=true" alt="Screenshot 1" height="700">
+
 ## Описание
 
 VK Moosic Player - это музыкльный плеер для работы с музыкой из ВКонтакте. Программа предоставляет удобный интерфейс для управления вашей любимой музыкальной библиотекой на любой платформе.
