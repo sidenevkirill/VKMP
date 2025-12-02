@@ -260,7 +260,7 @@ function renderFooter() {
     footer.innerHTML = `
         <div class="footer-links">
             <a href="https://github.com/sidenevkirill" target="_blank" class="footer-link">
-                <i class="fab fa-github"></i> Автор проекта
+                <i class="fab fa-github"></i> Сиденёв Кирилл
             </a>
             <a href="#" onclick="showTokenHelp()" class="footer-link">
                 <i class="fas fa-key"></i> Как получить токен
