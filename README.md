@@ -1,6 +1,4 @@
-# VKMP
-
-# VK Moosic Player
+# VKMP - VK Moosic Player
 
 ## Описание
 
