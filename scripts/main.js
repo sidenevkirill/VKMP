@@ -149,7 +149,7 @@ function renderHeader() {
             <div class="logo-icon">
                 <i class="fas fa-headphones"></i>
             </div>
-            <div class="logo-text">VK Music Player</div>
+            <div class="logo-text">VK Moosic Player</div>
         </div>
         <h1 class="tagline">Музыка ВКонтакте на всех ваших устройствах</h1>
     `;
@@ -268,13 +268,13 @@ function renderFooter() {
             <a href="#" onclick="showReportIssue()" class="footer-link">
                 <i class="fas fa-bug"></i> Сообщить об ошибке
             </a>
-            <a href="https://vk.com" target="_blank" class="footer-link">
-                <i class="fab fa-vk"></i> VKontakte
+            <a href="https://vk.com/railcinec" target="_blank" class="footer-link">
+                <i class="fab fa-vk"></i> Паблик ВК
             </a>
         </div>
         <div class="copyright">
-            &copy; 2025 VK Music Player Project. Все версии с открытым исходным кодом.<br>
-            Разработано сообществом для сообщества. Не аффилировано с VKontakte.
+            &copy; 2025 VK Moosic Player. Все версии с открытым исходным кодом.<br>
+            Разработано Railcinec.
         </div>
     `;
 }
