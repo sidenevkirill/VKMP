@@ -14,7 +14,7 @@
 - 💾 **Работа с токеном** - загрузка и сохранение токена VK
 - 🎨 **Красивый интерфейс** - удобный в использовании
 
-### 📱 Featured Projects
+### 📱 Другие проекты
 - [VK-Moosic-Player-Windows](https://github.com/sidenevkirill/VK-Moosic-Player-Destkop) - для Windows
 - [VK-Moosic-Player-Ubuntu ](https://github.com/sidenevkirill/VK-Moosic-Player-Ubuntu) - для Linux
 - [VK-Moosic-Player-Console](https://github.com/sidenevkirill/VK-Moosic-Player-Console) - для Console
